@@ -41,6 +41,22 @@ export interface SnackBarOptions {
    * Must be one of Snackbar.LENGTH_SHORT, Snackbar.LENGTH_LONG, or Snackbar.LENGTH_INDEFINITE.
    */
   duration?: number;
+  
+  /**
+   * Margin from bottom, defaults to 0.
+   */
+  marginBottom?: number;
+
+  /**
+   * Margin from left, defaults to 0.
+   */
+  marginLeft?: number;
+
+  /**
+   * Margin from right, defaults to 0.
+   */
+  marginRight?: number;
+
 
   /**
    * Snackbar text color.
